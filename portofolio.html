@@ -1,129 +1,87 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-    <style> 
-        .nav ul { 
-          list-style-type: none; 
-          margin: 0; 
-          padding: 0; 
-          overflow: hidden; 
-          background-color: rgb(0, 0, 0); 
-          font-weight: bold; 
-        } 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Khonsa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="coba.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!---font--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
 
-        .nav li { 
-          float: left; 
-        } 
+  <body>  
+    <nav class="navbar navbar-expand-lg bg-light shadow nav li a:hover">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+            <li class="nav-item">
+                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#">Portofolio</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        .nav li a { 
-          display: block; 
-          color: white; 
-          text-align: center; 
-          padding: 14px 16px; 
-          text-decoration: none; 
-        } 
-
-        .nav li a:hover { 
-          background-color: #111; 
-        } 
-    </style> 
-</head>
-
-<body>
-    
-    <div class="nav"> 
-        <ul> 
-            <li><a class="active" href="index.html">Biodata</a></li> 
-            <li><a href="#">Portofolio</a></li> 
-        </ul> 
-    </div>
-
-<link rel="stylesheet" href="./coba css.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <style>
-        body { 
-        background: lightblue; 
-    }
-    </style>
-<center>
-    <h1>Portofolio Khonsa</h1>
-    <img src="khonsa.jpg" alt="khonsa" width="160" height="160">
-    <p>Saya Khonsa Mawadda Amien, mahasiswi aktif yang sedang menempuh strata satu jurusan Akuntansi Fakultas Ekonomi dan Bisnis Universitas Brawijaya semester 5. Selama kuliah saya juga aktif mengikuti organisasi, berikut merupakan pengalaman organisasi saya:</p>
-    <br>
-    <table border="2">
-        <tr>
-            <th>No</th>
-            <th>Tahun</th>
-            <th>Organisasi/Projek</th>
-            <th>Keterangan</th>
-        </tr>
-        <tr align="center">
-            <td>1</td>
+     <!---Khonsa-->
+     <div id="hero" class="container d-flex flex-column align-items-center justify-content-center text-center title">
+      <img src= "khonsa.jpg" class="image-hero rounded-circle shadow-sm" alt="">
+      <h1 class="fw-bold">Khonsa Mawadda</h1>
+      <p class="subtitle">S1 Akuntansi</p>
+      <br>
+      <p>Saya Khonsa Mawadda Amien, mahasiswi aktif yang sedang menempuh strata satu jurusan Akuntansi Fakultas Ekonomi dan Bisnis Universitas Brawijaya semester 5. Selama kuliah saya juga aktif mengikuti organisasi, berikut merupakan pengalaman organisasi saya:</p>
+      <i class="bi bi-arrow-down"></i>
+      <br>
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Tahun</th>
+            <th scope="col">Projek/Organisasi</th>
+            <th scope="col">Keterangan</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <th scope="row">1</th>
             <td>2020</td>
             <td><img src="ASA.jpg" alt="ASA" width="100" height="100"</td>
             <td>Co-Founder & Tim Desain @asa.mengangkasa</td>
-        </tr>
-        <tr align="center">
-            <td>2</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
             <td>2020</td>
             <td><img src="MEC.jpg" alt="MEC" width="100" height="100"</td>
             <td>Staf Divisi Desain Muslim Entrepreneur Club CIES FEB UB</td>
-        </tr>
-        <tr align="center">
-            <td>3</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
             <td>2021</td>
             <td><img src="FORSTILLING.jpg" alt="FORSTILLING" width="100" height="100"</td>
             <td>Sekretaris Biro Media dan Jaringan Forstilling FEB UB</td>
-        </tr>
-        </table>
-        <p>Melalui organisasi saya tersebut, saya belajar banyak mengenai desain dengan mengikuti workshop dan banyak menciptakan desain sesuai kebutuhan konten atau kegiatan. </p>
-        <br>
+          </tr>
+        </tbody>
+      </table>
 
-        <h2>Bagaimana Portofolio saya?</h2>
-        <form>
-            <p>Nama</p>
-            <input type="text" name="nama" placeholder="Enter your name">
-            <p>Kesan</p>
-            <input type="radio" name="kesan" id="Sangat Menarik">
-            <label for="Sangat Menarik">Sangat Menarik</label>
-            <input type="radio" name="kesan" id="Menarik">
-            <label for="Menarik">Menarik</label>
-            <input type="radio" name="kesan" id="Cukup Menarik">
-            <label for="Cukup Menarik">Cukup Menarik</label>
-            <input type="radio" name="kesan" id="Kurang Menarik">
-            <label for="Kurang Menarik">Kurang Menarik</label>
-            <br>
-            <style>
-                button {
-                    border-radius: 5px;
-                    color: white;
-                    border: 1px solid grey;
-                    padding: 5px
-                }
+    <p>Melalui organisasi saya tersebut, saya belajar banyak mengenai desain dengan mengikuti workshop dan banyak menciptakan desain sesuai kebutuhan konten atau kegiatan. </p>
+    <br>
+    <br>
+        <h3>Contact Me</h3>
+        <p>Name</p>
+        <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="addon-wrapping">
+    <br>
+        <p>Email</p>
+        <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="addon-wrapping">    
+    <br>
+        <a class="bi bi-facebook" href="https://www.facebook.com/khonsa.mawadda" role="button">Facebook</a>
+        <a class="bi bi-instagram" href="https://instagram.com/mawaddakhonsa" role="button">Instagram</a>
+    </div>
 
-                .btn-submit {
-                    background-color: rgb(86, 86, 246);
-                }
-
-                .btn-reset {
-                    background-color: rgb(110, 108, 108);
-                }
-            </style>
-            <button class="btn-submit">Submit</button>
-            <button class="btn-reset">Reset</button>
-            
-            <h4>Kontak Saya</h4>
-        <p><a href="https://www.facebook.com/khonsa.mawadda">Facebook</a></p>
-        <p><a href="https://instagram.com/mawaddakhonsa">Instagram</a></p>
-        <p><a href="index.html">Biodata Saya</a></p>
-    </center>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
